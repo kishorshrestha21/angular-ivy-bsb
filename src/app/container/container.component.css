@@ -1,7 +1,29 @@
-.services {
-  display: flex;
+#container {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-rows: auto;
 }
 
-.image img {
+.services {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas: 'c1 c1 c1 c1 c1 c1 co co co co co co co';
+  grid-gap: 20px;
+  box-sizing: border-box;
+}
+
+.cut {
+  height: 100px;
+  grid-area: c1;
+}
+.color {
+  height: auto;
+  grid-area: co;
+}
+img {
   height: 200px;
 }
