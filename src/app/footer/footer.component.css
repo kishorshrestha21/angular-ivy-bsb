@@ -1,0 +1,18 @@
+.footertWrap {
+  background-color: #827ab5;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  padding: 8px;
+}
+
+a {
+  text-decoration: none;
+  padding: 8px;
+  color: White;
+}

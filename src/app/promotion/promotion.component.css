@@ -1,4 +1,14 @@
-.image img{
+.image img {
   height: 25vh;
   width: 100%;
+}
+
+.btn button {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  background-color: white;
+  color: #827ab5;
+  font-weight: bold;
+  box-shadow: 0 2px 4px 1px rgb(107, 105, 105);
 }
