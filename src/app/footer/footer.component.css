@@ -1,5 +1,7 @@
 .footertWrap {
   background-color: #827ab5;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 ul {
