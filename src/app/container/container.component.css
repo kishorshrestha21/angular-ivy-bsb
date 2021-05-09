@@ -6,14 +6,14 @@ h2 {
   display: flex;
   text-align: center;
 }
-.cut {
+.cut,
+.extension,
+.color,
+.bridal {
   width: 50%;
   padding: 10px;
-}
-
-.color {
-  width: 50%;
-  padding: 10px;
+  background-color: #827ab510;
+  cursor: pointer;
 }
 
 img {

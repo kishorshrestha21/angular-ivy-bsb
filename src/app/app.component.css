@@ -8,3 +8,17 @@ p {
   background-color: #827ab5;
   width: 100%;
 }
+
+.promotion {
+  margin-top: 40px;
+}
+.container {
+  margin-bottom: 50px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  background-color: #827ab5;
+  width: 100%;
+}

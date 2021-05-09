@@ -12,3 +12,13 @@
   font-weight: bold;
   box-shadow: 0 2px 4px 1px rgb(107, 105, 105);
 }
+
+.locBtn button {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  background-color: #827ab5;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 1px;
+}
