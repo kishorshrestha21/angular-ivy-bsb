@@ -6,11 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./promotion.component.css']
 })
 export class PromotionComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
+  isShow: boolean = false;
 
-isShow:boolean=true;
-  ngOnInit() {
+  onLoc() {
+    this.isShow = !this.onLoc;
   }
-
+  ngOnInit() {}
 }
