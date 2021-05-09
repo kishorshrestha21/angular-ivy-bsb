@@ -2,6 +2,7 @@
   background-color: #827ab5;
   width: 100%;
   box-sizing: border-box;
+  z-index: 888;
 }
 
 ul {

@@ -11,7 +11,7 @@ export class PromotionComponent implements OnInit {
   isShow: boolean = false;
 
   onLoc() {
-    this.isShow = !this.onLoc;
+    this.isShow = !this.isShow;
   }
   ngOnInit() {}
 }

@@ -1,16 +1,19 @@
 p {
   font-family: Lato;
 }
-
+.wrap{
+  display: flex;
+}
 .footer {
   position: fixed;
   bottom: 0;
   background-color: #827ab5;
   width: 100%;
+  z-index: 999;
 }
 
 .promotion {
-  margin-top: 40px;
+  margin-top: 60px;
 }
 .container {
   margin-bottom: 50px;
