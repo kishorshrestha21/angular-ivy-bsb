@@ -9,9 +9,11 @@
   <button>Make An Apponintment</button>
 </div>
 
-<div class="locBtn">
-  <button>Location 1</button>
-</div>
-<div class="locBtn">
-  <button>Location 2</button>
+<div class="locWrap" *ngIf="isShow">
+  <div class="locBtn">
+    <button>Location 1</button>
+  </div>
+  <div class="locBtn">
+    <button>Location 2</button>
+  </div>
 </div>

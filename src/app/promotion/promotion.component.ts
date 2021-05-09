@@ -9,6 +9,7 @@ export class PromotionComponent implements OnInit {
 
   constructor() { }
 
+isShow:boolean=true;
   ngOnInit() {
   }
 
