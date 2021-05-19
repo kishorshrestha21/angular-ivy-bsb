@@ -1,7 +1,8 @@
 .navWrap {
   position: fixed;
   width: 200px;
-  background-color: #827ab5;
+  background-color: white;
+
   height: 100vh;
   top: 50px;
   z-index: 25;
@@ -19,7 +20,7 @@ li {
 }
 a {
   text-decoration: none;
-  color: white;
+  color: #827ab5;
   padding: 20px;
 }
 
